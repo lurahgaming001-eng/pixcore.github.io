@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Pro - Web Development Specialist</title>
+    <link rel="icon" type="image/jpeg" href="icon/Pixels Langues1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style-index.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Pixels <span>Language</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Professional Web Development Specialist</h1>
+            <p>Building dynamic and responsive websites using the latest technologies like HTML, CSS, JavaScript, React, and Angular for your business.</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Web developer with over 5 years of experience in creating innovative digital solutions.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Building Exceptional Digital Experiences</h3>
+                    <p>I am a full-stack web developer specializing in modern technologies like React, Angular, Node.js, and various other frameworks. I have a passion for creating web applications that are not only visually appealing but also functional and user-friendly.</p>
+                    <p>With a background in both design and development, I can bridge the gap between creative design and technical implementation, ensuring the final product meets client expectations and user needs.</p>
+                    <div class="skills">
+                        <span class="skill">HTML/CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Angular</span>
+                        <span class="skill">Node.js</span>
+                        <span class="skill">UI/UX Design</span>
+                        <span class="skill">Responsive Design</span>
+                        <span class="skill">E-commerce</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/faa.jpg" alt="Developer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>Various projects I've completed, from static sites to dynamic web applications.</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web-design">Web Design</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="web-app">Web App</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Item 1 -->
+                <div class="portfolio-item" data-category="web-design">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Corporate Website - TechCorp</h3>
+                        <p>Modern and responsive corporate website design for a technology company.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Online Store - FashionStore</h3>
+                        <p>Complete e-commerce platform with payment system, shopping cart, and product management.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="portfolio-item" data-category="web-app">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Portfolio 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Project Management Application</h3>
+                        <p>Web application for team and project management with real-time collaboration features.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="portfolio-item" data-category="web-design">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Photographer Portfolio</h3>
+                        <p>Portfolio website with interactive gallery for professional photographers.</p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio 5">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Local Art Marketplace</h3>
+                        <p>E-commerce platform for local artists with commission system and reviews.</p>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="portfolio-item" data-category="web-app">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio 6">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Data Analytics System</h3>
+                        <p>Analytics dashboard with real-time data visualization for businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Various web development services I offer for your business needs.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and dynamic websites using the latest technologies like HTML, CSS, JavaScript, React, and Angular.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Creating complete online stores with payment systems, product management, and integration with various platforms.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Designing websites that display optimally on all devices, from desktop to smartphone.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating engaging and intuitive user experiences with modern interface design.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Website Maintenance</h3>
+                    <p>Website maintenance and update services to ensure optimal performance and security.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Website optimization for search engines to increase visibility and ranking in search results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Service Pricing</h2>
+                <p>Transparent pricing packages for various types of web development projects.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Package 1 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Simple Website</h3>
+                        <div class="pricing-price">$220</div>
+                        <div class="pricing-period">per project</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Responsive design</li>
+                        <li>Up to 5 pages</li>
+                        <li>Contact form</li>
+                        <li>Basic SEO optimization</li>
+                        <li>1 month support</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#order" class="btn">Order Now</a>
+                    </div>
+                </div>
+                <!-- Package 2 -->
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Business Website</h3>
+                        <div class="pricing-price">$470</div>
+                        <div class="pricing-period">per project</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Custom responsive design</li>
+                        <li>Up to 10 pages</li>
+                        <li>Simple CMS</li>
+                        <li>Social media integration</li>
+                        <li>Advanced SEO optimization</li>
+                        <li>3 months support</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#order" class="btn">Order Now</a>
+                    </div>
+                </div>
+                <!-- Package 3 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">E-commerce</h3>
+                        <div class="pricing-price">$940</div>
+                        <div class="pricing-period">per project</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Complete e-commerce platform</li>
+                        <li>Product & category management</li>
+                        <li>Integrated payment system</li>
+                        <li>Shopping cart</li>
+                        <li>Admin panel</li>
+                        <li>6 months support</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <a href="#order" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <p>Prices can be adjusted based on project complexity and specific requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <section id="contact" class="contact-section">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Purbalingga, Indonesia</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+62 851 9117 6960</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>morzaamv@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 9:00 - 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Order Section -->
+        <section id="order" class="order-section">
+            <div class="section-title">
+                <h2>Order Form</h2>
+            </div>
+            <div class="order-form">
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="paket">Select Service Package *</label>
+                        <select id="paket" name="paket" required>
+                            <option value="">-- Select Package --</option>
+                            <option value="website_sederhana">Simple Website - $220</option>
+                            <option value="website_bisnis">Business Website - $470</option>
+                            <option value="ecommerce">E-commerce - $940</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nama-pemesan">Customer Name *</label>
+                            <input type="text" id="nama-pemesan" name="nama_pemesan" placeholder="Full customer name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telepon">Phone Number *</label>
+                            <input type="tel" id="telepon" name="telepon" placeholder="Active phone number" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email-pemesan">Email *</label>
+                        <input type="email" id="email-pemesan" name="email_pemesan" placeholder="Active email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="deskripsi">Project Description *</label>
+                        <textarea id="deskripsi" name="deskripsi" placeholder="Describe your project needs in detail" required></textarea>
+                    </div>
+                    
+                    <div class="order-summary">
+                        <h4>Order Summary</h4>
+                        <div class="summary-item">
+                            <span>Package:</span>
+                            <span id="paket-summary">-</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Price:</span>
+                            <span id="harga-summary">$0</span>
+                        </div>
+                        <div class="summary-total">
+                            <span>Total:</span>
+                            <span id="total-summary">$0</span>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Pixels Language</h3>
+                    <p>Web development specialist focusing on quality, innovation, and client satisfaction.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/codevisuall"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Higuchimorza"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/pixels_language/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/fatkhur-rokhman-abdillah-26322938a/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="http://localhost/htdocs/Pengembangan-web.html">Web Development</a></li>
+                        <li><a href="http://localhost/htdocs/E-commerce.html">E-commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Purbalingga, Indonesia</li>
+                        <li><i class="fas fa-phone"></i> +62 851 9117 6960</li>
+                        <li><i class="fas fa-envelope"></i> morzaamv@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 WebDev Pro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+// Update order summary
+document.getElementById('paket').addEventListener('change', function() {
+    updateOrderSummary();
+});
+
+function updateOrderSummary() {
+    const paket = document.getElementById('paket').value;
+    const paketSummary = document.getElementById('paket-summary');
+    const hargaSummary = document.getElementById('harga-summary');
+    const totalSummary = document.getElementById('total-summary');
+    
+    let harga = 0;
+    let namaPaket = '';
+    
+    switch(paket) {
+        case 'website_sederhana':
+            harga = 220;
+            namaPaket = 'Simple Website';
+            break;
+        case 'website_bisnis':
+            harga = 470;
+            namaPaket = 'Business Website';
+            break;
+        case 'ecommerce':
+            harga = 940;
+            namaPaket = 'E-commerce';
+            break;
+        default:
+            harga = 0;
+            namaPaket = '-';
+    }
+    
+    paketSummary.textContent = namaPaket;
+    hargaSummary.textContent = '$' + harga.toLocaleString('en-US');
+    totalSummary.textContent = '$' + harga.toLocaleString('en-US');
+}
+
+// Form submission with AJAX
+document.getElementById('orderForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    console.log('Form submission started...');
+    
+    // Form validation
+    const paket = document.getElementById('paket').value;
+    const namaPemesan = document.getElementById('nama-pemesan').value;
+    const telepon = document.getElementById('telepon').value;
+    const emailPemesan = document.getElementById('email-pemesan').value;
+    const deskripsi = document.getElementById('deskripsi').value;
+    
+    if (!paket) {
+        alert('Please select a service package first!');
+        return;
+    }
+    
+    if (!namaPemesan.trim()) {
+        alert('Customer name is required!');
+        return;
+    }
+    
+    if (!telepon.trim()) {
+        alert('Phone number is required!');
+        return;
+    }
+    
+    if (!emailPemesan.trim()) {
+        alert('Email is required!');
+        return;
+    }
+    
+    if (!isValidEmail(emailPemesan)) {
+        alert('Invalid email format!');
+        return;
+    }
+    
+    if (!deskripsi.trim()) {
+        alert('Project description is required!');
+        return;
+    }
+    
+    // Prepare data
+    const orderData = {
+        action: 'order',
+        paket: paket,
+        nama_pemesan: namaPemesan,
+        telepon: telepon,
+        email_pemesan: emailPemesan,
+        deskripsi: deskripsi
+    };
+    
+    console.log('Data to be sent:', orderData);
+    
+    // Show loading state
+    const orderBtn = this.querySelector('.order-btn');
+    const originalText = orderBtn.textContent;
+    orderBtn.textContent = 'Sending...';
+    orderBtn.disabled = true;
+    
+    // Send request to API - using JSON
+    fetch('admin.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(orderData)
+    })
+    .then(response => {
+        console.log('Response status:', response.status);
+        console.log('Response ok:', response.ok);
+        
+        // Read response as text first
+        return response.text().then(text => {
+            console.log('Raw response text:', text);
+            
+            // Try to parse as JSON
+            try {
+                const data = JSON.parse(text);
+                return {
+                    ok: response.ok,
+                    status: response.status,
+                    data: data
+                };
+            } catch (e) {
+                console.error('JSON Parse Error:', e);
+                throw new Error('Server returned invalid response: ' + text.substring(0, 100));
+            }
+        });
+    })
+    .then(({ok, status, data}) => {
+        if (!ok) {
+            throw new Error(`HTTP error! status: ${status}`);
+        }
+        
+        console.log('Parsed response data:', data);
+        
+        if (data.success) {
+            showSuccessMessage(data.message);
+            // Reset form
+            document.getElementById('orderForm').reset();
+            // Reset summary
+            updateOrderSummary();
+        } else {
+            throw new Error(data.message || 'Unknown error occurred');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        showErrorMessage('Failed to send order: ' + error.message);
+    })
+    .finally(() => {
+        // Reset button state
+        orderBtn.textContent = originalText;
+        orderBtn.disabled = false;
+    });
+});
+
+// Helper functions
+function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+function showSuccessMessage(message) {
+    alert('✅ SUCCESS!\n\n' + message + '\n\nPlease open admin.php to view the order.');
+}
+
+function showErrorMessage(message) {
+    alert('❌ ERROR!\n\n' + message);
+}
+
+function showSuccessMessage(message) {
+    // Create success message
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #27ae60;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        z-index: 10000;
+        max-width: 400px;
+    `;
+    successDiv.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-check-circle" style="font-size: 1.2em;"></i>
+            <div>
+                <strong>Success!</strong><br>
+                ${message}
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(successDiv);
+    
+    // Remove after 5 seconds
+    setTimeout(() => {
+        if (successDiv.parentNode) {
+            successDiv.remove();
+        }
+    }, 5000);
+}
+
+function showErrorMessage(message) {
+    // Create error message
+    const errorDiv = document.createElement('div');
+    errorDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #e74c3c;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        z-index: 10000;
+        max-width: 400px;
+    `;
+    errorDiv.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-exclamation-triangle" style="font-size: 1.2em;"></i>
+            <div>
+                <strong>Error!</strong><br>
+                ${message}
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(errorDiv);
+    
+    // Remove after 5 seconds
+    setTimeout(() => {
+        if (errorDiv.parentNode) {
+            errorDiv.remove();
+        }
+    }, 5000);
+}
+
+// Initialize summary on page load
+document.addEventListener('DOMContentLoaded', function() {
+    updateOrderSummary();
+    
+    // Mobile menu functionality
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (mobileMenu && navLinks) {
+        mobileMenu.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    }
+    
+    // Portfolio filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            portfolioItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>
+</body>
+</html>
